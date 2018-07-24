@@ -1,0 +1,11 @@
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.csprojAssemblyReference.cache
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.csproj.CoreCompileInputs.cache
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.AssemblyInfoInputs.cache
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.AssemblyInfo.cs
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/bin/Debug/netcoreapp2.1/Observable.deps.json
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/bin/Debug/netcoreapp2.1/Observable.runtimeconfig.json
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/bin/Debug/netcoreapp2.1/Observable.runtimeconfig.dev.json
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/bin/Debug/netcoreapp2.1/Observable.dll
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/bin/Debug/netcoreapp2.1/Observable.pdb
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.dll
+/Users/brianhaller/Documents/c#_projects/DesignPatterns/Observable/obj/Debug/netcoreapp2.1/Observable.pdb

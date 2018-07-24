@@ -42,17 +42,34 @@ namespace Observable
     }
   }
 
-  class ConsoleDisplay : IObserver
+  class RedConsoleDisplay : IObserver
   {
     private WeatherStation _station;
 
-    public ConsoleDisplay(WeatherStation station)
+    public RedConsoleDisplay(WeatherStation station)
     {
       this._station = station;
     }
 
     public void Update()
     {
+      Console.ForegroundColor = ConsoleColor.Red;
+      System.Console.WriteLine(this._station.getTemp());
+    }
+  }
+
+  class YellowConsoleDisplay : IObserver
+  {
+    private WeatherStation _station;
+
+    public YellowConsoleDisplay(WeatherStation station)
+    {
+      this._station = station;
+    }
+
+    public void Update()
+    {
+      Console.ForegroundColor = ConsoleColor.Yellow;
       System.Console.WriteLine(this._station.getTemp());
     }
   }
@@ -63,9 +80,9 @@ namespace Observable
     static void Main(string[] args)
     {
       var weatherStation = new WeatherStation();
-      weatherStation.Add(new ConsoleDisplay(weatherStation));
+      weatherStation.Add(new RedConsoleDisplay(weatherStation));
+      weatherStation.Add(new YellowConsoleDisplay(weatherStation));
       weatherStation.setTemp(68);
-      weatherStation.setTemp(84);
     }
   }
 }
